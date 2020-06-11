@@ -1,0 +1,31 @@
+h4 {
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+.fa {
+  color: #598BC2;
+  float: right;
+}
+
+.fa:hover {
+  color: blue;
+}
+
+button {
+  float: right;
+}
+
+.list-group-item {
+  background-color: #F6F490;
+}
+
+.list-group-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.todoitems :hover {
+  background-color: #FFF86F;
+}
+/*# sourceMappingURL=style.css.map */
