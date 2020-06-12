@@ -1,46 +1,21 @@
 {
-    "todos":[
-        {
-            "id":"0",
-            "todoTitle":"Grocery Shopping"
-            
-        },
-        {
-            "id":"1",
-            "todoTitle":"Movies to watch"
-            
-        },
-        {
-            "id":"2",
-            "todoTitle":"Steps to follow"
-            
-        }
-    ],
-    "todosSubItems":[
-        {
-            "id":0,
-            "todoItem":"Apples",
-            "isCompleted":"true",
-            "todosId":"0"
-        },
-        {
-            "id":1,
-            "todoItem":"Dal",
-            "isCompleted":"true",
-            "todosId":"0"
-        },
-        {
-            "id":2,
-            "todoItem":"Rice",
-            "isCompleted":"false",
-            "todosId":"0"
-        },
-        {
-            "id":3,
-            "todoItem":"Mangoes",
-            "isCompleted":"false",
-            "todosId":"0"
-        }
-    ]
-  
+  "todos": [
+    {
+      "id": "0",
+      "todoTitle": "Grocery Shopping"
+    },
+    {
+      "id": "1",
+      "todoTitle": "Movies to watch"
+    },
+    {
+      "todoTitle": "Steps to follow",
+      "id": "lezKng5"
+    },
+    {
+      "todoTitle": "Record a video",
+      "id": "7pn-ptw"
+    }
+  ],
+  "todosSubItems": []
 }

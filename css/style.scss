@@ -1,5 +1,4 @@
 
-@import '../node_modules/bootstrap-vue/src/index.scss';
 
 $primaryFont : 'Montserrat';
 
@@ -30,4 +29,8 @@ button{
 }
 .todoitems :hover{
     background-color: #FFF86F;
+}
+
+form{
+    padding-bottom: 5px;
 }
