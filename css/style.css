@@ -1,9 +1,25 @@
-h4 {
-  font-family: "Montserrat";
-  font-weight: lighter;
+@media screen and (max-width: 767px) {
+  .card .card-body .todo-heading {
+    font-size: 1.2rem;
+  }
 }
 
-.fa {
+.main-title {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.fa-arrow-left {
+  color: #598BC2;
+}
+
+.fa-trash {
+  color: #598BC2;
+  float: right;
+}
+
+.fa-plus {
   color: #598BC2;
   float: right;
 }
@@ -16,20 +32,68 @@ button {
   float: right;
 }
 
-.list-group-item {
+.main-todo-list {
   background-color: #F6F490;
 }
 
-.list-group-item a {
+.main-todo-list a {
   color: black;
   text-decoration: none;
 }
 
-.todoitems :hover {
+.todos :hover {
   background-color: #FFF86F;
 }
 
 form {
   padding-bottom: 5px;
+}
+
+.todo-heading {
+  background-color: #F6F490;
+  padding: 20px 0px;
+  font-size: 2rem;
+}
+
+.todo-items-list {
+  font-family: "Montserrat";
+}
+
+.todo-items-list a {
+  color: black;
+  text-decoration: none;
+}
+
+.todo-complete {
+  text-decoration: line-through;
+}
+
+:checked {
+  height: 15px;
+  width: 15px;
+  text-decoration: line-through;
+}
+
+.btn-grp {
+  float: right;
+  text-align: center;
+}
+
+.btn-warning {
+  background-color: white;
+  color: black;
+  font-family: "Montserrat";
+  border-radius: 0;
+  border-color: black;
+}
+
+.btn-warning:hover {
+  background-color: #FFF86F;
+  color: black;
+  border-color: black;
+}
+
+.add-todo-item {
+  padding-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

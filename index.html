@@ -9,21 +9,22 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.css">
     <!-- google fonts  -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="/node_modules/axios/dist/axios.min.js"></script>
     <script src="vue.js"></script>
+    <script src="/node_modules/vue-router/dist/vue-router.min.js"></script>
+    
 
 </head>
 <body>
     
     <div id="app" class="container">
-            <component-a :headertitle="headertitle" :todos="todos" ></component-a>
-
+        <router-view :headertitle="headertitle" :todos="todos" ></router-view>
     </div>
-
 
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="app.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 </html>

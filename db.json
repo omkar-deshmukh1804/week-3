@@ -10,12 +10,75 @@
     },
     {
       "todoTitle": "Steps to follow",
-      "id": "lezKng5"
-    },
-    {
-      "todoTitle": "Record a video",
-      "id": "7pn-ptw"
+      "id": "gBlg7Vk"
     }
   ],
-  "todosSubItems": []
+  "todoItems": [
+    {
+      "id": "0",
+      "itemTitle": "Apple",
+      "todoId": "0",
+      "completed": false
+    },
+    {
+      "id": "1",
+      "itemTitle": "Mangoes",
+      "todoId": "0",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "itemTitle": "Dal",
+      "todoId": "0",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "itemTitle": "Rice",
+      "todoId": "0",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "itemTitle": "Avengers",
+      "todoId": "1",
+      "completed": false
+    },
+    {
+      "id": "5",
+      "itemTitle": "Harry Potter",
+      "todoId": "1",
+      "completed": false
+    },
+    {
+      "itemTitle": "Step 1",
+      "todoId": "gBlg7Vk",
+      "completed": false,
+      "id": "S1N831r"
+    },
+    {
+      "itemTitle": "Step 2",
+      "todoId": "gBlg7Vk",
+      "completed": false,
+      "id": "ej7u4lh"
+    },
+    {
+      "itemTitle": "Endgame",
+      "todoId": "1",
+      "completed": false,
+      "id": "52aHybO"
+    },
+    {
+      "itemTitle": "Oranges",
+      "todoId": "0",
+      "completed": false,
+      "id": "oABtf2r"
+    },
+    {
+      "itemTitle": "Peaches",
+      "todoId": "0",
+      "completed": false,
+      "id": "pqKAtK9"
+    }
+  ]
 }
